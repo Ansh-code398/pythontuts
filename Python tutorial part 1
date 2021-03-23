@@ -1,0 +1,27 @@
+from gtts import gTTs  #  pip install gtts
+
+import os
+
+myText = "Ansh is a good boy"
+
+from gtts import gTTs
+
+import os
+
+myText = "Ansh is a good boy"
+
+language = 'en'
+
+output = gTTs (text=myText, lang=language, slow=true)
+
+output.save = ('Python.mp3')
+
+os.system("start Python.mp3")
+
+language = 'en'
+
+output = gTTs (text=myText, lang=language, slow=true)
+
+output.save = ('Python.mp3')
+
+os.system("start Python.mp3")
